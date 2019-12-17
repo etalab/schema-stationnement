@@ -137,7 +137,7 @@
       }
     },
     {
-      "name":"nb_P+R",
+      "name":"nb_PR",
       "description":"Nombre de places avec le tarif P+R",
       "example":"250",
       "type":"integer",

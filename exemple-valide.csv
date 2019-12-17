@@ -1,2 +1,2 @@
-id_park,nom_park,insee,ad_park,url,type_usag,gratuit,nb_places,nb_P+R,nb_pmr,nb_voit_el,nb_velo,nb_2r_el,nb_autop,nb_2rm,nb_covoit,hauteur_max,num_SIRET,Xlong,Ylat,tarif_pmr,t1h,t2h,t3h,t4h,t24h,ab_r,ab_nr,type_ouvr,info
+id_park,nom_park,insee,ad_park,url,type_usag,gratuit,nb_places,nb_PR,nb_pmr,nb_voit_el,nb_velo,nb_2r_el,nb_autop,nb_2rm,nb_covoit,hauteur_max,num_SIRET,Xlong,Ylat,tarif_pmr,t1h,t2h,t3h,t4h,t24h,ab_r,ab_nr,type_ouvr,info
 75114-P-001,REPUBLIQUE,75114,"3 rue de la Gare, 92300, Levallois-Peret",https://www.exemple.fr/stationnementrepublique/,tous_usagers,2016-10-31,325,250,250,10,25,5,5,5,5,5,80295478500028,1.452323,46.59698,gratuit,5.5,7.5,10.5,13.5,40,60.99,79.99,ouvrage,Gratuité pour le marché le samedi matin
