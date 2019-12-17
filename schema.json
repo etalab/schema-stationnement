@@ -1,6 +1,5 @@
 {
   "$schema":"https://frictionlessdata.io/schemas/table-schema.json",
-  "name":"stationnement",
   "title":"Lieux de stationnement",
   "description":"Spécification des lieux permettant le stationnement",
   "keywords":[
