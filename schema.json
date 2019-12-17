@@ -1,5 +1,6 @@
 {
   "$schema":"https://frictionlessdata.io/schemas/table-schema.json",
+  "name":"stationnement",
   "title":"Lieux de stationnement",
   "description":"Spécification des lieux permettant le stationnement",
   "keywords":[
@@ -8,6 +9,8 @@
     "mobilité"
   ],
   "countryCode":"FR",
+  "homepage":"https://github.com/etalab/schema-lieux-stationnement",
+  "path":"https://github.com/etalab/schema-lieux-stationnement/raw/v0.1.0/schema.json",
   "licenses":[
     {
       "title":"Licence Ouverte",
@@ -27,8 +30,9 @@
       "path":"https://github.com/etalab/schema-lieux-stationnement/raw/v0.1.0/exemple-invalide.csv"
     }
   ],
-  "author":"Antoine Augusti pour Etalab",
-  "contact":"contact@transport.beta.gouv.fr",
+  "created":"2019-12-13",
+  "lastModified":"2019-12-13",
+  "version":"0.1.0",
   "contributors":[
     {
       "title":"Béatrice Mercier",
@@ -49,12 +53,8 @@
       "role":"contributor"
     }
   ],
-  "version":"0.1.0",
-  "created":"2019-12-13",
-  "updated":"2019-12-13",
-  "homepage":"https://github.com/etalab/schema-lieux-stationnement",
-  "uri":"https://github.com/etalab/schema-lieux-stationnement/raw/v0.1.0/schema.json",
-  "example":"https://github.com/etalab/schema-lieux-stationnement/raw/v0.1.0/exemple-valide.csv",
+  "author":"Antoine Augusti pour Etalab",
+  "contact":"contact@transport.beta.gouv.fr",
   "fields":[
     {
       "name":"id_park",
