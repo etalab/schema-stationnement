@@ -1,7 +1,7 @@
 {
   "$schema":"https://frictionlessdata.io/schemas/table-schema.json",
   "title":"Lieux de stationnement",
-  "description":"Spécification des lieux permettant le stationnement",
+  "description":"Spécification des lieux permettant le stationnement en parc",
   "keywords":[
     "stationnement",
     "transport",
@@ -268,7 +268,7 @@
     },
     {
       "name":"insee",
-      "description":"Le code INSEE de la commune où le parking est localisé",
+      "description":"Le code INSEE de la commune où le parking est localisé.",
       "example":"75114",
       "type":"string",
       "constraints":{
@@ -278,7 +278,7 @@
     },
     {
       "name":"ad_park",
-      "description":"L'adresse de l’entrée principale du parking, suivi du code postal et du nom de la Commune (séparé par des virgules). Nomenclature pour les lieux proches des sorties d'autoroute ou de nationale : A11 Sortie 7 Le Mans Nord. Nomenclature pour les zones rurales sans adresse : \"Croisement de route_1 - route_2\" ou \"Le long de route_X après le passage à niveau\"",
+      "description":"L'adresse de l’entrée principale du parking, suivi du code postal et du nom de la Commune (séparé par des virgules). Nomenclature pour les lieux proches des sorties d'autoroute ou de nationale : A11 Sortie 7 Le Mans Nord. Nomenclature pour les zones rurales sans adresse : \"Croisement de route_1 - route_2\" ou \"Le long de route_X après le passage à niveau\".",
       "example":"3 rue de la Gare, 92300, Levallois-Peret",
       "type":"string",
       "constraints":{
@@ -297,7 +297,7 @@
     },
     {
       "name":"type_usag",
-      "description":"Type d'usagers autorisés à entrer dans le parc",
+      "description":"Type d'usagers autorisés à entrer dans le parc.",
       "example":"tous_usagers",
       "type":"string",
       "constraints":{
@@ -337,7 +337,7 @@
     },
     {
       "name":"nb_places",
-      "description":"Nombre total de places pour les voitures tout statut (PMR, covoiturage, autopartage, voitures électriques)",
+      "description":"Nombre total de places pour les voitures tout statut (PMR, covoiturage, autopartage, voitures électriques).",
       "example":"325",
       "type":"integer",
       "constraints":{
@@ -346,7 +346,7 @@
     },
     {
       "name":"nb_PR",
-      "description":"Nombre de places avec le tarif P+R",
+      "description":"Nombre de places avec le tarif P+R.",
       "example":"250",
       "type":"integer",
       "constraints":{
@@ -355,7 +355,7 @@
     },
     {
       "name":"nb_pmr",
-      "description":"Nombre total de place réservées aux personnes à mobilité réduite",
+      "description":"Nombre total de places réservées aux personnes à mobilité réduite.",
       "example":"250",
       "type":"integer",
       "constraints":{
@@ -382,7 +382,7 @@
     },
     {
       "name":"nb_2r_el",
-      "description":"Nombre d’emplacements vélos ou deux roues motorisés disposant d’une prise dédiée",
+      "description":"Nombre d’emplacements vélos ou deux roues motorisés disposant d’une prise dédiée.",
       "example":"5",
       "type":"integer",
       "constraints":{
@@ -391,7 +391,7 @@
     },
     {
       "name":"nb_autop",
-      "description":"Nombre total de place réservées aux voitures en autopartage",
+      "description":"Nombre total de places réservées aux voitures en autopartage.",
       "example":"5",
       "type":"integer",
       "constraints":{
@@ -400,7 +400,7 @@
     },
     {
       "name":"nb_2rm",
-      "description":"Nombre total de place réservées aux motos et scooters",
+      "description":"Nombre total de places réservées aux motos et scooters.",
       "example":"5",
       "type":"integer",
       "constraints":{
@@ -409,7 +409,7 @@
     },
     {
       "name":"nb_covoit",
-      "description":"Nombre total de places réservées au covoiturage",
+      "description":"Nombre total de places réservées au covoiturage.",
       "example":"5",
       "type":"integer",
       "constraints":{
@@ -418,7 +418,7 @@
     },
     {
       "name":"hauteur_max",
-      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking, en cm.",
+      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres.",
       "example":"5",
       "type":"integer",
       "constraints":{
@@ -437,7 +437,7 @@
     },
     {
       "name":"Xlong",
-      "description":"La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieuexprimée dans le système de coordonnées WGS84.",
+      "description":"La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84.",
       "example":"1.452323",
       "type":"number",
       "constraints":{
@@ -448,7 +448,7 @@
     },
     {
       "name":"Ylat",
-      "description":"La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84",
+      "description":"La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84.",
       "example":"46.59698",
       "type":"number",
       "constraints":{
@@ -543,7 +543,7 @@
     },
     {
       "name":"type_ouvr",
-      "description":"Précision sur le type de construction de l'équipement",
+      "description":"Précision sur le type de construction de l'équipement.",
       "example":"ouvrage",
       "type":"string",
       "constraints":{
@@ -556,7 +556,7 @@
     },
     {
       "name":"info",
-      "description":"Faire remonter des informations ou commentaires, utiles pour un usager du parking, si les champs précédents ne correspondent pas. Si plusieurs informations sont renseignées, le séparateur est le point-virgule. Par exemple : gratuité le samedi matin de 9h à 12h, informations relatives aux services mis à disposition des usagers (présence d’agents de sécurité 24h…)",
+      "description":"Faire remonter des informations ou commentaires, utiles pour un usager du parking, si les champs précédents ne correspondent pas. Si plusieurs informations sont renseignées, le séparateur est le point-virgule. Par exemple : gratuité le samedi matin de 9h à 12h, informations relatives aux services mis à disposition des usagers (présence d’agents de sécurité 24h…).",
       "example":"Gratuité pour le marché le samedi matin",
       "type":"string",
       "constraints":{
