@@ -310,10 +310,27 @@
     },
     {
       "name":"gratuit",
-      "description":"Date de dernière mise à jour des données. Notation ISO 8601, format AAAA-MM-DD",
-      "example":"2016-10-31",
-      "type":"date",
-      "format":"%Y-%m-%d",
+      "description":"Indiquer si la gratuité est applicable à tous les usagers (hors abonnés, résidents, PMR). Il est possible d'indiquer dans le champ `info` toute information supplémentaire relative aux particularités et exceptions (par exemple : \"Gratuité le samedi matin de 9h à 13h\").",
+      "example":"true",
+      "type":"boolean",
+      "trueValues":[
+        "true",
+        "True",
+        "TRUE",
+        "1",
+        "vrai",
+        "Vrai",
+        "VRAI"
+      ],
+      "falseValues":[
+        "false",
+        "False",
+        "FALSE",
+        "0",
+        "faux",
+        "Faux",
+        "FAUX"
+      ],
       "constraints":{
         "required":true
       }
