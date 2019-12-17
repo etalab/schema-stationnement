@@ -35,14 +35,206 @@
   "version":"0.1.0",
   "contributors":[
     {
-      "title":"Béatrice Mercier",
-      "email":"beatrice.mercier@beta.gouv.fr",
+      "title":"Pierre Mercé",
+      "email":"pmerce@bordeaux-metropole.fr",
+      "organisation":"Bordeaux Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Cédric Mahé",
+      "email":"cedric.mahe@nantesmetropole.fr",
+      "organisation":"Nantes Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Fréderick Petit",
+      "email":"frederick.petit@lametro.fr",
+      "organisation":"Grenoble-Alpes Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Séverine Ferrant",
+      "email":"severine.ferrant@grandpoitiers.fr",
+      "organisation":"Grand Poitiers",
+      "role":"contributor"
+    },
+    {
+      "title":"Nicolas Madignier",
+      "email":"nicolas.madignier@grandpoitiers.fr",
+      "organisation":"Grand Poitiers",
+      "role":"contributor"
+    },
+    {
+      "title":"Oliver Asselin",
+      "email":"oasselin@lillemetropole.fr",
+      "organisation":"Métrople Européenne de Lille",
+      "role":"contributor"
+    },
+    {
+      "title":"Jean-Marie Bourgogne",
+      "email":"jmbourgogne@opendatafrance.email ",
+      "organisation":"Open Data France",
+      "role":"contributor"
+    },
+    {
+      "title":"François Lyonnais",
+      "email":"francois.lyonnais@orleans-metropole.fr",
+      "organisation":"Orléans Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Jean-Charles Guimard",
+      "email":"jean-charles.guimard@strasbourg.eu ",
+      "organisation":"Eurométropole de Strasbourg",
+      "role":"contributor"
+    },
+    {
+      "title":"Antoine Salsat",
+      "email":"a.salsat@montpellier3m.fr",
+      "organisation":"Montpellier Méditerranée Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Nawelle Nurmukhamedov",
+      "email":"nawelle.nurmukhamedov@versailles.fr",
+      "organisation":"Versailles",
+      "role":"contributor"
+    },
+    {
+      "title":"Cyrille Devillele",
+      "email":"cyrille.devillele@dignelesbains.fr",
+      "organisation":"Digne-les-Bains",
+      "role":"contributor"
+    },
+    {
+      "title":"François Ganz",
+      "email":"francois.ganz@mairie-avignon.com",
+      "organisation":"Grand Avignon",
+      "role":"contributor"
+    },
+    {
+      "title":"Eric Legale",
+      "email":"eric.legale@ville-issy.fr",
+      "organisation":"Issy-les-Moulineaux",
+      "role":"contributor"
+    },
+    {
+      "title":"Frederic Chauvin",
+      "email":"f.chauvin@rennesmetropole.fr",
+      "organisation":"Rennes Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Hervé Le Berre",
+      "email":"herve.le-berre@agglo-larochelle.fr",
+      "organisation":"Communauté d’Agglomération La Rochelle",
+      "role":"contributor"
+    },
+    {
+      "title":"Catherine Evrard-Smagghe",
+      "email":"catherine.evrard-smagghe@paris.fr",
+      "organisation":"Ville de Paris",
+      "role":"contributor"
+    },
+    {
+      "title":"Philippe Priquet",
+      "email":"philippe.priquet@nicecotedazur.org",
+      "organisation":"Métropole Nice Côte d’Azur",
+      "role":"contributor"
+    },
+    {
+      "title":"Frédéric Massing",
+      "email":"fmassing@metzmetropole.fr",
+      "organisation":"Metz Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"François Julien",
+      "email":"francois.julien@toulouse-metropole.fr",
+      "organisation":"Toulouse Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Orianne Vales",
+      "email":"orianne.vales@scet.fr",
+      "organisation":"Service Conseil Expertise Territoires",
+      "role":"contributor"
+    },
+    {
+      "title":"Thierry Brusseaux",
+      "email":"thierry.brusseaux@flowbird.group",
+      "organisation":"Flowbird",
+      "role":"contributor"
+    },
+    {
+      "title":"Jérôme Lerzy",
+      "email":"jerome.lerzy@aeroportbeauvais.com",
+      "organisation":"Aéroport Paris-Beauvais",
+      "role":"contributor"
+    },
+    {
+      "title":"Laurent Palayret",
+      "email":"laurent.palayret@adp.fr",
+      "organisation":"Aéroports de Paris",
+      "role":"contributor"
+    },
+    {
+      "title":"Adrien Jonget",
+      "email":"adrien.jonget@lpa.fr",
+      "organisation":"Lyon Parc Auto",
+      "role":"contributor"
+    },
+    {
+      "title":"Valérie Eynaud",
+      "email":"v.eynaud@saemes.fr",
+      "organisation":"SAEMES",
+      "role":"contributor"
+    },
+    {
+      "title":"Eric Saillard",
+      "email":"eric.saillard@troyesparcauto.com ",
+      "organisation":"Troyes Parc Auto",
+      "role":"contributor"
+    },
+    {
+      "title":"Edouard Lecomte",
+      "email":"e.lecomte@fnms.fr",
+      "organisation":"Fédération Nationale du Stationnement",
+      "role":"contributor"
+    },
+    {
+      "title":"Jean-Loup Gauducheau",
+      "email":"jlgauducheau@cityway.fr",
+      "organisation":"Cityway",
+      "role":"contributor"
+    },
+    {
+      "title":"Aline Batifol",
+      "email":"aline.batifol@mappy.com",
+      "organisation":"Mappy",
+      "role":"contributor"
+    },
+    {
+      "title":"Marielle Faure",
+      "email":"marielle.faure@here.com ",
+      "organisation":"Here Technologies",
+      "role":"contributor"
+    },
+    {
+      "title":"Martin Rueda",
+      "email":"martin.rueda@sciencespo.fr",
       "organisation":"transport.data.gouv.fr",
       "role":"contributor"
     },
     {
       "title":"Ishan Bhojwani",
-      "email":"ishan@beta.gouv.fr",
+      "email":"ishan.bhojwani@beta.gouv.fr",
+      "organisation":"transport.data.gouv.fr",
+      "role":"contributor"
+    },
+    {
+      "title":"Béatrice  Mercier",
+      "email":"beatrice.mercier@beta.gouv.fr",
       "organisation":"transport.data.gouv.fr",
       "role":"contributor"
     },
@@ -53,7 +245,7 @@
       "role":"contributor"
     }
   ],
-  "author":"Antoine Augusti pour Etalab",
+  "author":"transport.data.gouv.fr",
   "contact":"contact@transport.beta.gouv.fr",
   "fields":[
     {
