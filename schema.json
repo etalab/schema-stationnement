@@ -8,8 +8,8 @@
     "mobilité"
   ],
   "countryCode":"FR",
-  "homepage":"https://github.com/etalab/schema-lieux-stationnement",
-  "path":"https://github.com/etalab/schema-lieux-stationnement/raw/v0.1.0/schema.json",
+  "homepage":"https://github.com/etalab/schema-stationnement",
+  "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.0/schema.json",
   "licenses":[
     {
       "title":"Licence Ouverte",
@@ -21,12 +21,12 @@
     {
       "title":"Ressource valide",
       "name":"exemple-valide",
-      "path":"https://github.com/etalab/schema-lieux-stationnement/raw/v0.1.0/exemple-valide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.0/exemple-valide.csv"
     },
     {
       "title":"Ressource invalide",
       "name":"exemple-invalide",
-      "path":"https://github.com/etalab/schema-lieux-stationnement/raw/v0.1.0/exemple-invalide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.0/exemple-invalide.csv"
     }
   ],
   "created":"2019-12-13",
