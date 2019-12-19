@@ -298,12 +298,12 @@
     {
       "name":"type_usag",
       "description":"Type d'usagers autorisés à entrer dans le parc.",
-      "example":"tous_usagers",
+      "example":"tous",
       "type":"string",
       "constraints":{
         "required":true,
         "enum":[
-          "tous_usagers",
+          "tous",
           "abonnés"
         ]
       }
