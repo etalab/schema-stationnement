@@ -30,7 +30,7 @@
     }
   ],
   "created":"2019-12-13",
-  "lastModified":"2019-12-13",
+  "lastModified":"2019-12-20",
   "version":"0.1.0",
   "contributors":[
     {
@@ -248,7 +248,7 @@
   "contact":"contact@transport.beta.gouv.fr",
   "fields":[
     {
-      "name":"id_park",
+      "name":"id",
       "description":"L'identifiant unique du parking, délivré par le Point d’accès national. `INSEE-P-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre sur 3 chiffres.",
       "example":"75114-P-001",
       "type":"string",
@@ -258,7 +258,7 @@
       }
     },
     {
-      "name":"nom_park",
+      "name":"nom",
       "description":"Nom du parking, ou nom donné dans son utilisation quotidienne en majuscules et sans accents. Recommandation : inutile de répéter le mot parking et ne pas dépasser les 64 caractères.",
       "example":"REPUBLIQUE",
       "type":"string",
@@ -277,7 +277,7 @@
       }
     },
     {
-      "name":"ad_park",
+      "name":"adresse",
       "description":"L'adresse de l’entrée principale du parking, suivi du code postal et du nom de la Commune (séparé par des virgules). Nomenclature pour les lieux proches des sorties d'autoroute ou de nationale : A11 Sortie 7 Le Mans Nord. Nomenclature pour les zones rurales sans adresse : \"Croisement de route_1 - route_2\" ou \"Le long de route_X après le passage à niveau\".",
       "example":"3 rue de la Gare, 92300, Levallois-Peret",
       "type":"string",
@@ -296,7 +296,7 @@
       }
     },
     {
-      "name":"type_usag",
+      "name":"type_usagers",
       "description":"Type d'usagers autorisés à entrer dans le parc.",
       "example":"tous",
       "type":"string",
@@ -345,7 +345,7 @@
       }
     },
     {
-      "name":"nb_PR",
+      "name":"nb_pr",
       "description":"Nombre de places avec le tarif P+R.",
       "example":"250",
       "type":"integer",
@@ -363,7 +363,7 @@
       }
     },
     {
-      "name":"nb_voit_el",
+      "name":"nb_voitures_electriques",
       "description":"Nombre total de places réservées aux voitures électriques, disposant d’une infrastructure de recharge opérationnelle.",
       "example":"10",
       "type":"integer",
@@ -390,7 +390,7 @@
       }
     },
     {
-      "name":"nb_autop",
+      "name":"nb_autopartage",
       "description":"Nombre total de places réservées aux voitures en autopartage.",
       "example":"5",
       "type":"integer",
@@ -399,7 +399,7 @@
       }
     },
     {
-      "name":"nb_2rm",
+      "name":"nb_2_rm",
       "description":"Nombre total de places réservées aux motos et scooters.",
       "example":"5",
       "type":"integer",
@@ -426,7 +426,7 @@
       }
     },
     {
-      "name":"num_SIRET",
+      "name":"num_siret",
       "description":"Numéro SIRET de la société ou de la collectivité chargée de la gestion de l’ouvrage (14 chiffres).",
       "example":"80295478500028",
       "type":"string",
@@ -472,7 +472,7 @@
       }
     },
     {
-      "name":"t1h",
+      "name":"tarif_1h",
       "description":"Tarif à payer pour 1h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
       "example":"5.5",
       "type":"number",
@@ -482,7 +482,7 @@
       }
     },
     {
-      "name":"t2h",
+      "name":"tarif_2h",
       "description":"Tarif à payer pour 2h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
       "example":"7.5",
       "type":"number",
@@ -492,7 +492,7 @@
       }
     },
     {
-      "name":"t3h",
+      "name":"tarif_3h",
       "description":"Tarif à payer pour 3h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
       "example":"10.5",
       "type":"number",
@@ -502,7 +502,7 @@
       }
     },
     {
-      "name":"t4h",
+      "name":"tarif_4h",
       "description":"Tarif à payer pour 4h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
       "example":"13.5",
       "type":"number",
@@ -512,7 +512,7 @@
       }
     },
     {
-      "name":"t24h",
+      "name":"tarif_24h",
       "description":"Tarif à payer pour 24h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
       "example":"40",
       "type":"number",
@@ -522,7 +522,7 @@
       }
     },
     {
-      "name":"ab_r",
+      "name":"abo_resident",
       "description":"Abonnement mensuel-type pour un résident de la zone, en euros TTC. En cas de changement de tarif, préciser le tarif moyen sur l'année (prorata temporis).",
       "example":"60.99",
       "type":"number",
@@ -532,7 +532,7 @@
       }
     },
     {
-      "name":"ab_nr",
+      "name":"abo_non_resident",
       "description":"Abonnement mensuel-type pour un non-résident de la zone, en euros TTC. En cas de changement de tarif, préciser le tarif moyen sur l'année (prorata temporis).",
       "example":"79.99",
       "type":"number",
@@ -542,7 +542,7 @@
       }
     },
     {
-      "name":"type_ouvr",
+      "name":"type_ouvrage",
       "description":"Précision sur le type de construction de l'équipement.",
       "example":"ouvrage",
       "type":"string",
@@ -575,5 +575,5 @@
   "missingValues":[
     ""
   ],
-  "primaryKey":"id_park"
+  "primaryKey":"id"
 }
