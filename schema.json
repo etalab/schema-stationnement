@@ -568,7 +568,7 @@
     {
       "name":"french-siret-value",
       "params":{
-        "column":"num_SIRET"
+        "column":"num_siret"
       }
     }
   ],
