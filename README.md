@@ -40,6 +40,10 @@ Le fichier doit être encodé en UTF-8 et utiliser le point-virgule comme sépar
 Nom du fichier : `Parking_nom_AAAAMMJJ.csv` avec nom étant le nom de la collectivité productrice des données, par exemple `Parking_Ain_20191013.csv`.
 
 ### Fichiers d'exemples
+Vous pouvez télécharger des fichiers gabarits d'exemple.
+
+- Un [fichier au format CSV](https://github.com/etalab/schema-stationnement/raw/v0.1.0/exemple-valide.csv) ;
+- Un [fichier au format tableur](https://github.com/etalab/schema-stationnement/raw/v0.1.0/exemple-valide.xlsx).
 
 ### Mises à jour
 
