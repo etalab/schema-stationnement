@@ -27,7 +27,13 @@ La base des stationnements permet de regrouper en un unique fichier consolidé l
 
 La base présente plusieurs cas d'usage :
 - Elle permet de mettre en avant l'offre de stationnement d'une collectivité en permettant à des services de calcul d'itinéraire d'intégrer ces données. Cela permet notamment à ces services de proposer des itinéraires multimodaux à leurs usagers, combinant voiture et transports en commun par exemple ;
-- Elle peut servir également à apporter une plus grande transparence sur l'offre de stationnement existante dans une ville, les tarifs qui y sont pratiqués.
+- Elle peut servir également à apporter une plus grande transparence sur l'offre de stationnement existante dans une ville, et les tarifs qui y sont pratiqués.
+
+### Données tarifaires
+
+Les données tarifaires étant particulièrement complexes à modéliser, le parti a été pris de demander aux producteurs de données de transmettre la meilleure estimation possible des tarifs s'appliquant à un usager du parking exempt de tout abonnement ou avantage (pas d'abonnement, sans tarif résident ou tarif réduit....) par tranche horaire. 
+
+Il est utile de noter, à la fois du côté du producteur et du réutilisateur de ces données, que l'équipe transport.data.gouv.fr ne peut pas guarantir l'exactitude de l'information transmise, et encourage l'usager final de consulter le site web du gestionnaire de parking afin d'obtenir une estimation la plus fiable possible des tarifs.
 
 ### Transmission des données
 
