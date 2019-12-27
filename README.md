@@ -31,9 +31,9 @@ La base présente plusieurs cas d'usage :
 
 ### Données tarifaires
 
-Les données tarifaires étant particulièrement complexes à modéliser, le parti a été pris de demander aux producteurs de données de transmettre la meilleure estimation possible des tarifs s'appliquant à un usager du parking exempt de tout abonnement ou avantage (pas d'abonnement, sans tarif résident ou tarif réduit....) par tranche horaire. 
+Les données tarifaires étant particulièrement complexes à modéliser, le parti a été pris de demander aux producteurs de données de transmettre la meilleure estimation possible des tarifs s'appliquant à un usager du parking exempt de tout abonnement ou avantage (pas d'abonnement, sans tarif résident ou tarif réduit…) par tranche horaire.
 
-Il est utile de noter, à la fois du côté du producteur et du réutilisateur de ces données, que l'équipe transport.data.gouv.fr ne peut pas guarantir l'exactitude de l'information transmise, et encourage l'usager final de consulter le site web du gestionnaire de parking afin d'obtenir une estimation la plus fiable possible des tarifs.
+Il est utile de noter, à la fois du côté du producteur et du réutilisateur de ces données, que l'équipe transport.data.gouv.fr ne peut pas garantir l'exactitude de l'information transmise, et encourage l'usager final à consulter le site web du gestionnaire de parking afin d'obtenir une estimation la plus fiable possible des tarifs.
 
 ### Transmission des données
 
