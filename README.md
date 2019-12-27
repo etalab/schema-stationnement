@@ -37,7 +37,11 @@ Il est utile de noter, à la fois du côté du producteur et du réutilisateur d
 
 ### Transmission des données
 
-Dans le but de constituer un répertoire consolidé des parcs de stationnement en France, les collectivités peuvent transmettre systématiquement, sous forme de tableau mis à jour, les données relatives aux parcs de stationnement publics, ou privés à usage public.
+Dans le but de constituer un répertoire consolidé des parcs de stationnement en France, les collectivités peuvent transmettre systématiquement les données relatives aux parcs de stationnement publics, ou privés à usage public.
+
+Elles peuvent ajouter le mot-clef `stationnement` lors de la publication du jeu de données sur leur espace de publication ou directement sur data.gouv.fr.
+
+En cas de mise à jour d'un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l'équipe transport.data.gouv.fr afin de s'assurer que la mise à jour du fichier a bien été pris en compte et intégré à la base consolidée.
 
 ### Format de fichier
 
@@ -56,4 +60,5 @@ Vous pouvez télécharger des fichiers gabarits d'exemple.
 Les mises à jour sont effectuées à partir du fichier communiqué précédemment et en reprennent, en les modifiant le cas échéant, les données qui y figurent déjà.
 
 ## Consolidation
+
 Le Point d'accès national aux données de transport ([transport.data.gouv.fr](https://transport.data.gouv.fr)) réalise une consolidation régulière des fichiers déposés sur [data.gouv.fr](https://data.gouv.fr) avec le mot-clé `stationnement` respectant le format de référence décrit ici.
