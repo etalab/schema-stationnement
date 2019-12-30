@@ -2,7 +2,7 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
-## Version 0.1.1 - 2019-12
+## Version 0.1.1 - 2019-12-30
 - Correction d'erreurs de syntaxe ;
 - Ajout de précisions sur les données tarifaires ;
 - Ajout de fichiers d'exemple au format CSV et XLSX.
