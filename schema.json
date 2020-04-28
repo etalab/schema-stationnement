@@ -9,7 +9,7 @@
   ],
   "countryCode":"FR",
   "homepage":"https://github.com/etalab/schema-stationnement",
-  "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.2/schema.json",
+  "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/schema.json",
   "licenses":[
     {
       "title":"Licence Ouverte",
@@ -21,22 +21,22 @@
     {
       "title":"Ressource valide (CSV)",
       "name":"exemple-valide-csv",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.2/exemple-valide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-valide.csv"
     },
     {
       "title":"Ressource valide (XLSX)",
       "name":"exemple-valide-xlsx",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.2/exemple-valide.xlsx"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-valide.xlsx"
     },
     {
       "title":"Ressource invalide",
       "name":"exemple-invalide",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.2/exemple-invalide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-invalide.csv"
     }
   ],
   "created":"2019-12-13",
   "lastModified":"2019-04-28",
-  "version":"0.1.2",
+  "version":"0.1.3",
   "contributors":[
     {
       "title":"Pierre Mercé",
@@ -429,7 +429,7 @@
     },
     {
       "name":"hauteur_max",
-      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres. S'il n'y a pas de hauteur maximale, il est possible de renseigner ce champs avec la valeur \"N/A\".",
+      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres. S'il n'y a pas de hauteur maximale, il est possible de renseigner ce champs avec la valeur `N/A`.",
       "example":"290",
       "type":"string",
       "constraints":{
