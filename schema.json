@@ -9,7 +9,7 @@
   ],
   "countryCode":"FR",
   "homepage":"https://github.com/etalab/schema-stationnement",
-  "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.1/schema.json",
+  "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.2/schema.json",
   "licenses":[
     {
       "title":"Licence Ouverte",
@@ -21,22 +21,22 @@
     {
       "title":"Ressource valide (CSV)",
       "name":"exemple-valide-csv",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.1/exemple-valide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.2/exemple-valide.csv"
     },
     {
       "title":"Ressource valide (XLSX)",
       "name":"exemple-valide-xlsx",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.1/exemple-valide.xlsx"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.2/exemple-valide.xlsx"
     },
     {
       "title":"Ressource invalide",
       "name":"exemple-invalide",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.1/exemple-invalide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.2/exemple-invalide.csv"
     }
   ],
   "created":"2019-12-13",
-  "lastModified":"2019-12-30",
-  "version":"0.1.1",
+  "lastModified":"2020-03-04",
+  "version":"0.1.2",
   "contributors":[
     {
       "title":"Pierre Mercé",
