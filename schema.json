@@ -429,12 +429,12 @@
     },
     {
       "name":"hauteur_max",
-      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres. S'il n'y a pas de hauteur maximale, il est possible de renseigner ce champs avec la valeur \"NA\".",
+      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres. S'il n'y a pas de hauteur maximale, il est possible de renseigner ce champs avec la valeur \"N/A\".",
       "example":"290",
       "type":"string",
       "constraints":{
         "required":true,
-        "pattern":"^(\\d+|NA)$"
+        "pattern":"^(\\d+|N\/A)$"
       }
     },
     {
