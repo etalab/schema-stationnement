@@ -247,6 +247,12 @@
       "email":"antoine.augusti@data.gouv.fr",
       "organisation":"Etalab",
       "role":"contributor"
+    },
+    {
+      "title":"Geoffrey Aldebert",
+      "email":"geoffrey.aldebert@data.gouv.fr",
+      "organisation":"Etalab",
+      "role":"contributor"
     }
   ],
   "author":"transport.data.gouv.fr",
@@ -423,11 +429,12 @@
     },
     {
       "name":"hauteur_max",
-      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres.",
-      "example":"5",
-      "type":"integer",
+      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres. S'il n'y a pas de hauteur maximale, il est possible de renseigner ce champs avec la valeur 'NA'.",
+      "example":"290",
+      "type":"string",
       "constraints":{
-        "required":true
+        "required":true,
+        "pattern":"^(\d+|NA)$"
       }
     },
     {
