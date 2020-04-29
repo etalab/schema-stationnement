@@ -2,6 +2,9 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
+## Version 0.1.3 - 2020-04-28
+- Modification du type et de la règle de validation du champs "hauteur_max"
+
 ## Version 0.1.2 - 2020-03-04
 - Correction du numéro de SIRET qui était invalide
 
