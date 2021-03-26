@@ -301,9 +301,9 @@
       "description":"Une adresse URL (Uniform Resource Locator) pointant vers une ressource disponible sur Internet où l'on peut obtenir d'autres informations pertinente relatives aux horaires d’ouverture et fermeture du parc, tarifs appliquées dans le parc, ressource disponible sur Internet où l'on peut réserver en ligne la place de parking.",
       "example":"https://www.exemple.fr/stationnementrepublique/",
       "type":"string",
+      "format":"uri",
       "constraints":{
-        "required":false,
-        "format":"uri"
+        "required":false
       }
     },
     {
