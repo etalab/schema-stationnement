@@ -1,2 +1,1 @@
-tableschema==1.15.0
-goodtables==2.4.4
+frictionless[excel]==4.1

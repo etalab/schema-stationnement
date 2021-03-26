@@ -22,10 +22,10 @@ jobs:
           name: Validate schema and examples
           command: |
             . venv/bin/activate
-            tableschema validate schema.json
+            frictionless validate --type schema schema.json
             test -e exemple-invalide.csv || echo "File exemple-invalide.csv not found"
-            goodtables validate --schema schema.json exemple-valide.csv
-            goodtables validate --schema schema.json exemple-valide.xlsx
+            frictionless validate --schema schema.json exemple-valide.csv
+            frictionless validate --schema schema.json exemple-valide.xlsx
 
 workflows:
   version: 2
