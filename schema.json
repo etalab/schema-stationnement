@@ -472,7 +472,7 @@
     {
       "name":"tarif_pmr",
       "description":"Type de tarif horaire pour les PMR.",
-      "example":"42",
+      "example":"normal_payant",
       "type":"string",
       "constraints":{
         "required":false,
