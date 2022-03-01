@@ -1,1 +1,1 @@
-frictionless[excel]==4.1
+frictionles==4.26.0
