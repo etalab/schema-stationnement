@@ -21,22 +21,22 @@
     {
       "title":"Ressource valide (CSV)",
       "name":"exemple-valide-csv",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.4/exemple-valide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.csv"
     },
     {
       "title":"Ressource valide (XLSX)",
       "name":"exemple-valide-xlsx",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.4/exemple-valide.xlsx"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.xlsx"
     },
     {
       "title":"Ressource invalide",
       "name":"exemple-invalide",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.4/exemple-invalide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-invalide.csv"
     }
   ],
   "created":"2019-12-13",
   "lastModified":"2022-03-02",
-  "version":"0.1.4",
+  "version":"0.1.5",
   "contributors":[
     {
       "title":"Pierre Mercé",

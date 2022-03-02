@@ -52,8 +52,8 @@ Nom du fichier : `Parking_nom_AAAAMMJJ.csv` avec nom étant le nom de la collect
 ### Fichiers d'exemples
 Vous pouvez télécharger des fichiers gabarits d'exemple.
 
-- Un [fichier valide au format CSV](https://github.com/etalab/schema-stationnement/raw/v0.1.4/exemple-valide.csv) ;
-- Un [fichier invalide au format CSV](https://github.com/etalab/schema-stationnement/raw/v0.1.4/exemple-invalide.csv) ;
+- Un [fichier valide au format CSV](https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.csv) ;
+- Un [fichier invalide au format CSV](https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-invalide.csv) ;
 
 
 ### Mises à jour
