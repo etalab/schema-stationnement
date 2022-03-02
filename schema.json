@@ -22,6 +22,7 @@
       "title":"Ressource valide (CSV)",
       "name":"exemple-valide-csv",
       "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.csv"
+
     },
     {
       "title":"Ressource valide (XLSX)",

@@ -2,6 +2,7 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
+
 ## Version 0.1.5 - 2022-03-02
 - Correction de l'exemple du champ tarif_pmr du fichier schema.json 
 
