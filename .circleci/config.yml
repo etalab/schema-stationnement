@@ -25,7 +25,7 @@ jobs:
             frictionless validate --type schema schema.json
             test -e exemple-invalide.csv || echo "File exemple-invalide.csv not found"
             frictionless validate --schema schema.json exemple-valide.csv
-            frictionless validate --schema schema.json exemple-valide.xlsx
+
 
 workflows:
   version: 2
