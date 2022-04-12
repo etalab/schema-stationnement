@@ -265,13 +265,22 @@
       "example":"75114-P-001",
       "type":"string",
       "constraints":{
-        "required":true,
+        "required":false,
         "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}-P-\\d{3}$"
+      }
+    },
+     {
+      "name":"id_local",
+      "description":"Identifiant du lieu de stationnement fixé par le producteur de la donnée pour son propre usage",
+      "example":"Parking004",
+      "type":"string",
+      "constraints":{
+        "required":false
       }
     },
     {
       "name":"nom",
-      "description":"Nom du parking, ou nom donné dans son utilisation quotidienne en majuscules et sans accents. Recommandation : inutile de répéter le mot parking et ne pas dépasser les 64 caractères.",
+      "description":"Nom du parking, ou nom donné dans son utilisation quotidienne. Recommandation : inutile de répéter le mot parking et ne pas dépasser les 64 caractères.",
       "example":"REPUBLIQUE",
       "type":"string",
       "constraints":{
