@@ -3,6 +3,9 @@
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
 
+## Version 0.1.6 - 2022-04-12
+- Ajout du champ optionnel id_local et modification du caractère obligatoire en optionnel pour l'id 
+
 ## Version 0.1.5 - 2022-03-02
 - Correction de l'exemple du champ tarif_pmr du fichier schema.json 
 
