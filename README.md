@@ -1,13 +1,11 @@
 # Schéma des lieux de stationnement
-Ce schéma permet de modéliser les stationnements en parcs publics et privés à usage public.
+Ce schéma permet de modéliser les stationnements hors-voirie en parcs publics et privés à usage public.
 
 ## Contexte
 
-Dans le cadre des travaux de l’équipe du Point d’accès national et de la mise en oeuvre de l’ouverture des données pour améliorer l’information dont disposent les voyageurs, l’équipe de [transport.data.gouv.fr](https://transport.data.gouv) propose une solution simple et structurée pour l’ouverture des données de parcs de stationnement en France : la Base Consolidée des Données de Stationnement (BCS).
+Dans le cadre des travaux de l’équipe du Point d’accès national et de la mise en oeuvre de l’ouverture des données pour améliorer l’information dont disposent les voyageurs, l’équipe de [transport.data.gouv.fr](https://transport.data.gouv) propose une solution simple et structurée pour l’ouverture des données de parcs de stationnement en France : la Base Nationale des Lieux de Stationnement (BNLS).
 
-Il s’adresse à toute nouvelle agglomération qui souhaiterait se lancer dans l’ouverture d’une base décrivant les stationnements hors-voirie de son ressort territorial.
-
-L’équipe de [transport.data.gouv.fr](https://transport.data.gouv) mettra à disposition des acteurs un générateur CSV conforme au schéma de données, ainsi qu’un validateur pour les collectivités qui voudraient créer le fichier par leurs soins.
+Il s’adresse à toute nouvelle agglomération qui souhaiterait se lancer dans l’ouverture d’une base décrivant les **stationnements hors-voirie** de son ressort territorial.
 
 ## Cadre juridique
 
@@ -23,7 +21,7 @@ Afin de faciliter la réutilisation de ces données, et réduire le coût d'int�
 
 ## Finalité
 
-La base des stationnements permet de regrouper en un unique fichier consolidé l'ensemble de l'offre de stationnement en France, dans un format standard et unifié. Cette standardisation des données facilite grandement le travail d'intégration de ces données par des services réutilisateurs.
+La base nationala des lieux de stationnement permet de regrouper en un unique fichier consolidé l'ensemble de l'offre de stationnement en France, dans un format standard et unifié. Cette standardisation des données facilite grandement le travail d'intégration de ces données par des services réutilisateurs.
 
 La base présente plusieurs cas d'usage :
 - Elle permet de mettre en avant l'offre de stationnement d'une collectivité en permettant à des services de calcul d'itinéraire d'intégrer ces données. Cela permet notamment à ces services de proposer des itinéraires multimodaux à leurs usagers, combinant voiture et transports en commun par exemple ;
@@ -37,17 +35,22 @@ Il est utile de noter, à la fois du côté du producteur et du réutilisateur d
 
 ### Transmission des données
 
-Dans le but de constituer un répertoire consolidé des parcs de stationnement en France, les collectivités peuvent transmettre systématiquement les données relatives aux parcs de stationnement publics, ou privés à usage public.
+Dans le but de constituer un répertoire consolidé des parcs de stationnement en France, les collectivités ou les opérateurs de parcs de stationnement peuvent transmettre systématiquement les données relatives aux parcs de stationnement publics, ou privés à usage public.
 
-Elles peuvent ajouter le mot-clef `stationnement` lors de la publication du jeu de données sur leur espace de publication ou directement sur data.gouv.fr.
+Il est conseillé d'ajouter le mot-clé `stationnement` ainsi que le schéma `Lieux de Stationnement` lors de la publication du jeu de données sur leur espace de publication ou directement sur data.gouv.fr. Cela permettra d'identifier plus simplement les ressources correspondant au schéma. 
 
 En cas de mise à jour d'un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l'équipe transport.data.gouv.fr afin de s'assurer que la mise à jour du fichier a bien été pris en compte et intégré à la base consolidée.
 
 ### Format de fichier
 
-Le fichier doit être encodé en UTF-8 et utiliser le point-virgule comme séparateur de colonnes. Aucune valeur ne peut contenir le caractère « point-virgule » choisi comme séparateur, sauf dans le cas des “listes ouvertes” ou on peut séparer les différentes attributs par des points virgules. L'en-tête de colonne sur la première ligne est obligatoire. Tous les champs sont obligatoires ; si la donnée n'est pas disponible, la colonne doit être présente et vide.
+Le fichier doit être encodé en UTF-8 et utiliser le point-virgule comme séparateur de colonnes. Aucune valeur ne peut contenir le caractère « point-virgule » choisi comme séparateur, sauf dans le cas des “listes ouvertes” ou on peut séparer les différentes attributs par des points virgules. L'en-tête de colonne sur la première ligne est obligatoire. Toutes les colonnes doivent-être présentes dans le fichier même si la donnée n'est pas disponible. Dans ce dernier cas, la colonne reste vide.
 
-Nom du fichier : `Parking_nom_AAAAMMJJ.csv` avec nom étant le nom de la collectivité productrice des données, par exemple `Parking_Ain_20191013.csv`.
+### Outils d'aide à la consolidation des données
+
+Il est possible de produire vos données facilement grâce à l'outil [Publier](https://publier.etalab.studio/select?schema=etalab%2Fschema-stationnement).
+Cet outil vous permet soit de partir de zéro et de remplir vos données sur un tableur ou un formulaire directement, soit de vérifier la qualité de votre fichier en éditant un rapport de validation et de le publier ensuite dès qu'il est conforme.
+
+L'équipe transport.data.gouv.fr met également à disposition de tous un [validateur de données](https://transport.data.gouv.fr/validation?type=etalab%2Fschema-stationnement) accessible à tous depuis le point d'accès national. 
 
 ### Fichiers d'exemples
 Vous pouvez télécharger des fichiers gabarits d'exemple.
@@ -60,4 +63,4 @@ Les mises à jour sont effectuées à partir du fichier communiqué précédemme
 
 ## Consolidation
 
-Le Point d'accès national aux données de transport ([transport.data.gouv.fr](https://transport.data.gouv.fr)) réalise une consolidation régulière des fichiers déposés sur [data.gouv.fr](https://data.gouv.fr) avec le mot-clé `stationnement` respectant le format de référence décrit ici.
+Le Point d'accès national aux données de transport ([transport.data.gouv.fr](https://transport.data.gouv.fr)) réalise une consolidation régulière des fichiers déposés sur [data.gouv.fr](https://data.gouv.fr) avec le mot-clé `stationnement` ou le schéma `Lieu de Stationnement` respectant le format de référence décrit [ici](https://schema.data.gouv.fr/etalab/schema-stationnement/0.1.5/documentation.html). 
